@@ -1,1 +1,1 @@
-# git_practice_assignmnet
+# git_assignment_practice
