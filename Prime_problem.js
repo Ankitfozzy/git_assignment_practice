@@ -1,10 +1,18 @@
-let flag = true;
-let N = 13;
-for(let i=0;i<N;i++){
-if(N%i==0){
-console.log("No");
+function checkprime(num){
+let count=0;
+for(let i=1;i<=num;i++){
+if(num%i==0){
+count++;
+    }
+  }if(count==2}{
+   return true;
 }
-else{
-console.log("Yes");
+ return false;
+
 }
+ let ans = checkprime(17);
+ if(ans==true){
+   console.log("prime")
+ }else{
+    console.log("Not prime")
 }
